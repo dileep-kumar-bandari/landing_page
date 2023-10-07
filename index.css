@@ -1,0 +1,226 @@
+
+.fa-hand-holding-heart{
+    color: rgb(135, 5, 249);
+    font-size: 150%; 
+    margin: 15px 20px 15px 30px; 
+}
+*{
+    color: rgb(3, 3, 106);
+    font-family: 'Ubuntu', sans-serif;
+    /* background-color: rgb(130, 166, 197); */
+}
+.img-div{
+    overflow: hidden;
+}
+#sp{
+    color: rgb(3, 3, 106);
+    font-family: 'Ubuntu', sans-serif;
+}
+.img1{
+    max-width: 80%;
+    
+}
+.img2,.img3{
+    max-width: 90%;
+}
+.ms-auto{
+    margin-right: 30px;
+}
+.menu-but{
+    margin-right: 30px;
+}
+.head{
+    margin-top: 150px;
+}
+.navbar{
+    background-color: rgb(246, 240, 255);
+    
+}
+#head{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bolder;
+    color: rgb(3, 3, 106);
+   
+}
+.but1{
+   border: 10px solid white;
+   border-radius: 15px;
+   padding: 5px;
+   background-color: rgb(94, 3, 179);
+   color: white;
+   transition: transform 0.2s ease;
+}
+
+.but2{
+    border: 10px solid white;
+    border-radius: 15px;
+    padding: 5px;
+    background-color: white;
+    color: rgb(61, 3, 116);
+    outline: 1.5px solid rgb(94, 3, 179);
+    outline-offset: -11.5px;
+    transition: transform 0.2s ease;
+}
+.but2::after{
+    outline: 1.5px solid rgb(94, 3, 179);
+    outline-offset: -11.5px;
+
+}
+
+.icon-div{
+    background-color: rgb(94, 3, 179);
+    border-radius: 50%;
+    padding: 10px;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fa-hand-holding-hand,.fa-users,.fa-hand-holding-dollar{
+    color: white;
+    font-size: 50px;
+}
+.card-header{
+    background-color: rgb(248, 243, 252);
+    border: none;
+}
+.card{
+    border: 6px solid white;
+    background-color: rgb(248, 243, 253);
+    padding: 20px;
+    border-radius: 10px;
+}
+.fa-square-check{
+    color: rgb(130, 0, 252);
+    font-size: 20px;
+}
+.img3div,.ved{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.cir{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    background-color: aliceblue;
+}
+.ci{
+    max-height: 80%;
+}
+.form,.formcol{
+    background-color: rgb(94, 3, 179);
+    padding: 30px;
+    color: white;
+}
+.card{
+    
+}
+.circle{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(130, 47, 255);
+    border-radius: 100%;
+    position: relative;
+    top: -270px;
+    left: -20px;
+    padding-top:25px;
+    color: white;
+}
+.c3{
+    background-color: rgb(242, 60, 254);
+}
+.c2{
+    background-color: rgb(31, 179, 50);
+}
+.div{
+    overflow: hidden;
+}
+.img10{
+    max-width: 100%;
+    opacity: 20%;
+    position: relative;
+    /* top: -50px; */
+    /* height: 400px; */
+}
+.viodiv{
+    background-color: rgba(72, 0, 139, 0.702);
+    padding:0px;
+    /* height: 600px; */
+    overflow: hidden;
+    padding: 100px;
+    position: relative;
+    
+}
+.viodiv::before{
+    content: "";
+    background-image: url('img10.jpg');
+    background-size: cover;
+    position:absolute;
+    top:0;
+    bottom:0;
+    right:0;
+    left:0;
+    width:auto;
+    height:auto;
+    z-index:-1;
+}
+.vdiv{
+    background-color: rgba(72, 0, 139, 0.702);
+    padding:0px;
+    overflow: hidden;
+    padding: 50px 50px;
+    position: relative;
+    
+}
+svg{
+    max-width: 75%;
+    position: relative;
+    left: 100px;
+}
+.vdiv::before{
+    content: "";
+    background-image: url('img15.jpg');
+    background-size: cover;
+    position:absolute;
+    top:-150px;
+    bottom:0;
+    right:0;
+    left:0;
+    width:auto;
+    height:auto;
+    z-index:-1;
+}
+.top{
+    position: relative;
+    top: -200px;
+}
+.bav{
+    background-color: rgb(210, 45, 255);
+    color: white;
+}
+.logo{
+    max-width: 100%;
+}
+.icons{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+.foot{
+    background-color: rgba(64, 26, 255, 0.3);
+    padding: 60px 20px 30px 50px;
+}
+.vd{
+    outline-offset: 0px;
+    outline:10px solid transparent;
+    border:none;
+    background-color: rgb(87, 9, 159);
+}
+.vd1{
+    background-color: white;
+}
+svg{
+    overflow: hidden;
+}
